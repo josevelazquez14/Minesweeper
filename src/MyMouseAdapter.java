@@ -129,7 +129,7 @@ public class MyMouseAdapter extends MouseAdapter {
 							{
 								if(mineboard.Mines[count].Col == gridX && mineboard.Mines[count].Row == gridY)
 								{	
-									System.out.println("Bomb " + count + " at position [" + gridX + "] [" + gridY + "]. YOU LOSE!!!!");
+									System.out.println("Bomb " + count + " at position [" + gridX + "] [" + gridY + "]. GAME OVER!!!");
 									myPanel.colorArray[gridX][gridY] = Color.BLACK;
 								}
 								
