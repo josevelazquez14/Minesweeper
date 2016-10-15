@@ -23,7 +23,6 @@ public class MineBoard {
 			int col = generator.nextInt(9);
 			int row = generator.nextInt(9);
 		
-			while(generator.nextInt() != generator.nextInt())
 			{
 			// Assign bomb
 			position[col][row]="bomb";
@@ -34,6 +33,5 @@ public class MineBoard {
 				
 	}
 			
-}
-	
+		}}
 }
